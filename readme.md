@@ -45,7 +45,9 @@ sudo mkdir /var/log/redis
 
 5. Download and install the latest Redis release
 
-6. Start 'er up
+6. Install netcat (nc command)
+
+7. Start 'er up
 
 * `cd skyline/bin`
 * `sudo redis-server redis.conf`
@@ -55,7 +57,7 @@ sudo mkdir /var/log/redis
 
 By default, the webapp is served on port 1500.
 
-7. Check the log files to ensure things are running.
+8. Check the log files to ensure things are running.
 
 ### Gotchas
 
